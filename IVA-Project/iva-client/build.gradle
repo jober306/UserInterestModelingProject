@@ -1,0 +1,11 @@
+
+version = '0.0.1'
+mainClassName = 'iva.client.Application'
+
+dependencies {
+	compile 'org.springframework.data:spring-data-commons'
+	compile 'org.springframework:spring-webmvc'
+	compile 'org.springframework.hateoas:spring-hateoas'
+	compile 'com.fasterxml.jackson.core:jackson-databind'
+	compile 'log4j:log4j'
+}

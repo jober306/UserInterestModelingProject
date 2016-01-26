@@ -1,0 +1,10 @@
+version = '0.1.0'
+
+dependencies {
+	compile 'org.apache.activemq:activemq-client'
+	compile 'com.google.code.gson:gson:2.3'
+}
+
+bootRepackage {
+	enabled = false
+}
